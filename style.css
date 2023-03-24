@@ -36,8 +36,8 @@ main {
     "container1"
     "container2"
     "container3";
-    height: 90%;
-    width: 80%;
+    height: 720px;
+    width: 310px;
 }
 
 .container1 {
@@ -123,7 +123,14 @@ button {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width:1440px) {   
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
     .containers {
+        height: 480px;
+        width: 634px;
         grid-template-areas:
         "container1 container1"
         "container2 container3";
@@ -136,23 +143,23 @@ button {
     }
 
     h1 {
-        font-size: 28px;
-        padding: 30px 30px;
+        font-size: 24px;
+        padding: 20px 20px;
     }
 
     .days{
-        font-size: 20px;
-        padding: 0px 30px;
-        padding-bottom: 30px;
+        font-size: 16px;
+        padding: 0px 20px;
+        padding-bottom: 20px;
         font-weight: 600;
         padding-top: 10px;
     }
 
     .info {
         padding-top: 10px;
-        font-size: 18px;
-        padding-left: 30px;
-        width: 80%;
+        font-size: 14px;
+        padding-left: 20px;
+        width: 85%;
         line-height: 30px;
     }
     
@@ -161,22 +168,22 @@ button {
     }
 
     h2 {
-        font-size: 28px;
-        padding: 20px 30px;
+        font-size: 20px;
+        padding: 20px 20px;
     }
     
     .value {
-        font-size: 46px;
-        padding: 0 30px;
+        font-size: 36px;
+        padding: 0 20px;
     }
 
     .info2 {
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 14px;
+        padding: 10px 20px;
     }
 
     button {
-        margin: 20px 30px;
+        margin: 20px 20px;
         width: 80%;
         height: 25%;
     }
@@ -186,10 +193,10 @@ button {
     }
 
     .info3 {
-        font-size: 18px;
+        font-size: 14px;
         padding: 0 30px;
         width: 80%;
-        line-height: 30px;
+        line-height: 25px;
 
     }
 
